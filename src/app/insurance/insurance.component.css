@@ -1,0 +1,196 @@
+.life{
+    background: #CBFFF3;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    margin-right: 11rem;
+    border-radius: 50px;
+    padding-top: .5rem;
+    margin-top: 5rem;
+}
+
+.life-img{
+    position: absolute;
+    height: 25rem;
+    width: 30rem;
+    left: 50rem;
+}
+
+.life h2{
+    font-size: 3rem;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+}
+
+.life p{
+    font-size: 1.2rem;
+    padding-right: 33rem;
+    color: #434343;
+}
+
+.life button{
+    font-size: 1rem;
+    background-color: #342e37;
+    padding: .8rem;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.life button:hover{
+    background-color: #d8d8d8;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.middle{
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 25rem;
+    gap: 1rem;
+}
+
+.motor{
+    background: #FFDBCD;
+    padding-top: 10rem;
+    position: relative;
+    bottom: 8rem;
+    padding-left: 0rem;
+    text-align: center;
+    border-radius: 50px;
+    width: 33.5rem;
+}
+
+.motor-img{
+    height: 25rem;
+    width: 26rem;
+    position: absolute;
+    bottom: 24rem;
+    left: 7.5rem;
+}
+
+.motor h2{
+    font-size: 3rem;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+}
+
+.motor p{
+    font-size: 1.2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #434343;
+}
+
+.motor button{
+    font-size: 1rem;
+    background-color: #342e37;
+    padding: .8rem;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.motor button:hover{
+    background-color: #d8d8d8;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.health{
+    background: #F1D1FF;
+    padding-top: 10rem;
+    position: relative;
+    bottom: 8rem;
+    padding-left: 0rem;
+    text-align: center;
+    border-radius: 50px;
+    width: 33.5rem;
+}
+
+.health-img{
+    height: 25rem;
+    width: 21rem;
+    position: absolute;
+    bottom: 24rem;
+    left: 41rem;
+}
+
+.health h2{
+    font-size: 3rem;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+}
+
+.health p{
+    font-size: 1.2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: #434343;
+}
+
+.health button{
+    font-size: 1rem;
+    background-color: #342e37;
+    padding: .8rem;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.health button:hover{
+    background-color: #d8d8d8;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.real-estate{
+    background: #D1EAFF;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    margin-right: 12rem;
+    border-radius: 50px;
+    padding-top: .5rem;
+    padding-left: 37rem;
+}
+
+.real-estate-img{
+    position: absolute;
+    height: 25rem;
+    width: 30rem;
+    left: 15rem;
+}
+
+.real-estate h2{
+    font-size: 3rem;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+}
+
+.real-estate p{
+    font-size: 1.2rem;
+    color: #434343;
+}
+
+.real-estate button{
+    font-size: 1rem;
+    background-color: #342e37;
+    padding: .8rem;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+
+.real-estate button:hover{
+    background-color: #d8d8d8;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+}

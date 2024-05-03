@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    margin: 3rem;
+    margin-left: 5rem;
+}
+
+.group1{
+    height: 28rem;
+    margin-top: 5rem;
+}
+
+h2{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.right{
+    padding-left: 4rem;
+}
+
+p{
+    font-size: 1rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+.group2{
+    margin-right: 27rem;
+}
+
+.down{
+    display: flex;
+}
+
+.group2 {
+    height: 18rem;
+    margin: 0;
+}
+
+.group3{
+    height: 17rem;
+    padding: 1rem;
+    padding-top: 3rem;
+}
