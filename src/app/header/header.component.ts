@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   imageUrl = 'assets/bird-removebg-preview.png';
+
+  tolife(){
+    document.getElementById("life")?.scrollIntoView({behavior:"smooth"})
+  }
+  tomotor(){
+    document.getElementById("motor")?.scrollIntoView({behavior:"smooth"})
+  }
+  tohealth(){
+    document.getElementById("motor")?.scrollIntoView({behavior:"smooth"})
+  }
+
+
 }

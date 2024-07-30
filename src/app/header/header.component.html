@@ -1,4 +1,4 @@
-<header>
+<!-- <header>
     <img [src]="imageUrl" alt="">
     <nav>
       <div class="list">
@@ -12,9 +12,9 @@
                   </mat-icon>
               </a>
               <div class="dropdown-content">
-                <a routerLink="/insurance">Life Insurance</a>
-                <a href="#">Motor Insurance</a>
-                <a href="#">Health Insurance</a>
+                <a (click)="tolife()" routerLink="/insurance" routerLinkActive="active" >Life Insurance</a>
+                <a (click)="tomotor()" routerLink="/motor" routerLinkActive="active">Motor Insurance</a>
+                <a (click)="tohealth()" routerLink="/motor" routerLinkActive="active" href="#">Health Insurance</a>
               </div>
             </div>
           </li>
@@ -37,4 +37,41 @@
         </ul>
       </div>
     </nav>
-  </header>
+  </header> -->
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+     <img [src]="imageUrl" alt="">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>
+        <div class="dropdown">
+          <a class="dropbtn"
+            >Insurance <i class="fa-solid fa-caret-down" ></i>
+          </a>
+          <div class="dropdown-content">
+            <a (click)="tolife()" routerLink="/insurance" routerLinkActive="active" >Life Insurance</a>
+            <a (click)="tomotor()" routerLink="/motor" routerLinkActive="active">Motor Insurance</a>
+            <a (click)="tohealth()" routerLink="/motor" routerLinkActive="active" href="#">Health Insurance</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">Property</a></li>
+      <li><a href="#">Software Solution</a></li>
+      <li>
+        <div class="dropdown">
+          <a class="dropbtn"
+            >Claims<i class="fa-solid fa-caret-down" ></i></a>
+          <div class="dropdown-content">
+            <a href="#">Health Claim</a>
+            <a href="#">Motor Claim</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">Clietele</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>

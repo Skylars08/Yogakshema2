@@ -15,6 +15,9 @@ export class InsuranceComponent implements OnInit {
   constructor(  ){}
 
   ngOnInit() {
-    AOS.init();
+    AOS.init({
+      duration: 650,
+      once: true
+    });
   }
 }

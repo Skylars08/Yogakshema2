@@ -13,6 +13,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MatIconModule } from '@angular/material/icon';
 import { InsuranceInfoComponent } from './insurance-info/insurance-info.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HeadComponent } from './head/head.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     TrustComponent,
     AboutComponent,
     FooterComponent,
-    InsuranceInfoComponent
+    InsuranceInfoComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
